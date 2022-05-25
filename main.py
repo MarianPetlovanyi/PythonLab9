@@ -1,8 +1,8 @@
-from Bird import Bird
-from Fish import Fish
-from Insect import Insect
-from Mammal import Mammal
-from Reptile import Reptile
+from Animal_hierachy.Bird import Bird
+from Animal_hierachy.Reptile import Reptile
+from Animal_hierachy.Mammal import Mammal
+from Animal_hierachy.Insect import Insect
+from Animal_hierachy.Fish import Fish
 
 
 def main():
@@ -11,11 +11,11 @@ def main():
     bird1 = Bird("Eagle", "male", 2, 10., 2.)
     insect1 = Insect("Fly", "male", 6, 0.01, 2)
     reptile1 = Reptile("Snake", "female", 0, 3, 10)
-    print(mammal1.__str__())
-    print(fish1.__str__())
-    print(bird1.__str__())
-    print(insect1.__str__())
-    print(reptile1.__str__())
+    print(mammal1)
+    print(fish1)
+    print(bird1)
+    print(insect1)
+    print(reptile1)
 
 
 if __name__ == '__main__':

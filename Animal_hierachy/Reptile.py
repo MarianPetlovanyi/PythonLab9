@@ -1,4 +1,4 @@
-from Animal import Animal
+from Animal_hierachy.Animal import Animal
 
 
 class Reptile(Animal):
